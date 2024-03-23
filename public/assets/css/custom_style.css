@@ -1,0 +1,292 @@
+/* Regular Price Style */
+.reg-price {
+    font-weight: 300;
+    font-size: 13px !important;
+    color: #aaaaaa !important;
+    text-decoration: line-through;
+    padding-left: 8px;
+}
+/*Campaign Product Regular Price Style*/
+.reg-price-campaign-product {
+    font-weight: 400;
+    font-size: 10px !important;
+    color: #aaaaaa !important;
+    text-decoration: line-through;
+    padding-left: 2px;
+}
+/*Product Wishlist Style*/
+.product-wish {
+    position: absolute;
+    top: 11%;
+    left: 0;
+    z-index: 99;
+    right: 30px;
+    text-align: right;
+    padding-top: 0;
+}
+.product-wish .fa {
+    color: #cbcbcb;
+    font-size: 28px;
+}
+.product-wish .fa:hover {
+    color: #ff7007;
+}
+.fill-heart {
+    color: #ff7007 !important;
+}
+/*Strip Card CVV Password Field Style*/
+.summary-item .row-in-form input[type=password], .summary-item .row-in-form input[type=text], .summary-item .row-in-form input[type=tel] {
+    font-size: 13px;
+    line-height: 19px;
+    display: inline-block;
+    height: 43px;
+    padding: 2px 20px;
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+}
+/*Product Review Style*/
+.color-gray{
+    color: #5A5A5A !important;
+}
+.color-yellow{
+    color: #efce4a !important;
+}
+.width-0-percent{
+    width:0%;
+}
+.width-20-percent{
+    width:20%;
+}
+.width-40-percent{
+    width:40%;
+}
+.width-60-percent{
+    width:60%;
+}
+.width-80-percent{
+    width:80%;
+}
+.width-100-percent{
+    width:100%;
+}
+/*Customer, Role Admin, Admin Dashboard Content Style*/
+.content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.icon-stat {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 1em;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.icon-stat-label {
+    display: block;
+    color: #999;
+    font-size: 12px;
+}
+.icon-stat-value {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+}
+.icon-stat-visual {
+    position: relative;
+    top: 22px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+.bg-primary {
+    color: #fff;
+    background: #d74b4b;
+}
+.bg-secondary {
+    color: #fff;
+    background: #6685a4;
+}
+
+.icon-stat-footer {
+    padding: 10px 0 0;
+    margin-top: 10px;
+    color: #aaa;
+    font-size: 12px;
+    border-top: 1px solid #eee;
+}
+/*Customer,Role Admin and Admin Profile Image Style*/
+#circular-image {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eeeeee;
+    border-radius: 50%;
+    overflow: hidden;
+    display:block;
+}
+#circular-image img{
+    width:100%;
+}
+/*Customer,Role Admin and Admin Setting Profile Image Style*/
+#circular-image-setting {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eeeeee;
+    border-radius: 50%;
+    overflow: hidden;
+    display:block;
+}
+#circular-image-setting img{
+    width:100%;
+}
+/*Customer and Admin Order Details Page Order Status Progreesbar Style*/
+#progressbar {
+    margin-bottom: 3vh;
+    overflow: hidden;
+    color: green;
+    padding-left: 0px;
+    margin-top: 3vh
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 10px;
+    width: 20%;
+    float: left;
+    position: relative;
+    font-weight: 400;
+    color: rgb(160, 159, 159);
+}
+
+#progressbar #step1:before {
+    content: "";
+    color: green;
+    width: 5px;
+    height: 5px;
+    margin-left: 0px !important;
+    /* padding-left: 11px !important */
+}
+
+#progressbar #step2:before {
+    content: "";
+    color: #fff;
+    width: 5px;
+    height: 5px;
+    margin-left: 32%;
+}
+
+#progressbar #step3:before {
+    content: "";
+    color: #fff;
+    width: 5px;
+    height: 5px;
+    margin-right: 32% ;
+    /* padding-right: 11px !important */
+}
+
+#progressbar #step4:before {
+    content: "";
+    color: #fff;
+    width: 5px;
+    height: 5px;
+    margin-right: 0px !important;
+    /* padding-right: 11px !important */
+}
+
+#progressbar #step5:before {
+    content: "";
+    color: #fff;
+    width: 5px;
+    height: 5px;
+    margin-right: 0px !important;
+    /* padding-right: 11px !important */
+}
+
+#progressbar li:before {
+    line-height: 29px;
+    display: block;
+    font-size: 12px;
+    background: #ddd;
+    border-radius: 50%;
+    margin: auto;
+    z-index: -1;
+    margin-bottom: 1vh;
+}
+
+#progressbar li:after {
+    content: '';
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin-bottom: 2vh;
+    top: 1px;
+    z-index: 1;
+}
+.progress-track{
+    padding: 0 8%;
+}
+#progressbar li:nth-child(2):after {
+    margin-right: auto;
+}
+
+#progressbar li:nth-child(1):after {
+    margin: auto;
+}
+
+#progressbar li:nth-child(3):after {
+    float: left;
+    width: 68%;
+}
+#progressbar li:nth-child(4):after {
+    margin-left: auto;
+    width: 132%;
+}
+
+#progressbar  li.active{
+    color: black;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: green;
+}
+/*Admin Categories List Style*/
+.sclist {
+    list-style: none;
+}
+.sclist li {
+    line-height: 33px;
+    border-bottom: 1px solid #ccc;
+}
+.slink i {
+    font-size: 16px;
+    margin-left: 12px;
+}
+.cclist {
+    list-style: none;
+}
+.cclist li {
+    line-height: 33px;
+    border-bottom: 1px solid #ccc;
+}
+.clink i {
+    font-size: 16px;
+    margin-left: 12px;
+}
